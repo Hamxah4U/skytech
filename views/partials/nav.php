@@ -25,7 +25,7 @@
         <a href="/contact" class="nav-item nav-link">Contact</a>
         <a href="" class="nav-item nav-link" data-bs-toggle="modal" data-bs-target="#login">Login</a>
     </div>
-    <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
+    <!-- <a href="" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a> -->
   </div>
 </nav>
 

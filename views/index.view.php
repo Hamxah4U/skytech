@@ -338,7 +338,7 @@
                             </div>
                         </div>
                         <div class="p-4">
-                            <h5>ENGR. JOHN FELIX JOSHUA</h5>
+                            <h5>ENGR. USAMA HUSSAINI</h5>
                             <span>CEO</span>
                         </div>
                     </div>
@@ -378,6 +378,16 @@
             </div>
         </div>
     </div>
+
+    
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.935929633266!2d9.852508924512227!3d10.340526767083734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDIwJzI1LjkiTiA5wrA1MSc0NC40IkU!5e0!3m2!1sen!2sng!4v1732700707888" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
     <!-- Team End -->
 
     <!-- Footer Start -->

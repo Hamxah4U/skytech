@@ -3,16 +3,7 @@
 session_start();
 
 $uri = $_SERVER['REQUEST_URI'];
-
-    // if(!isset($_SESSION['userID']) && $uri != '/' && $uri != '/login') {
-    //   header('Location: /');
-    //   exit();
-    // }
-
-    if(! isset($_SESSION['userID']) && $uri != '/'){
-      header('Location: /');
-    }
-
+ 
     require 'function.php';
 
     $uri = $_SERVER['REQUEST_URI'];
@@ -28,10 +19,22 @@ $uri = $_SERVER['REQUEST_URI'];
     }elseif($uri == '/contact'){
       require 'controllers/contact.php';
     }elseif($uri == '/dashboard'){
+      if(! isset($_SESSION['userID'])){
+        header('location: /');
+        exit();
+      }
       require 'controllers/Admin/dashboard.php';
     }elseif($uri == '/users'){
+      if(! isset($_SESSION['userID'])){
+        header('location: /');
+        exit();
+      }
       require 'controllers/Admin/users.php';
     }elseif($uri == '/post'){
+      if(! isset($_SESSION['userID'])){
+        header('location: /');
+        exit();
+      }
       require 'controllers/Admin/post.php';
     }
 ?>
